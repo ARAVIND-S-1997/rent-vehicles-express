@@ -1,0 +1,74 @@
+[
+    {
+        "image": "https://cdn.shopify.com/s/files/1/1888/4399/files/Splendor-480x248.jpg?7750786343063859886",
+        "vehiclename": "Splender",
+        "catagory": "Commuter",
+        "noofseats": "2",
+        "noofpassengers": "2",
+        "price": "500"
+    },
+    {
+        "image": "https://bd.gaadicdn.com/processedimages/kawasaki/kawasaki-ninja-zx-10r/source/kawasaki-ninja-zx-10r602a37f3af2e7.jpg",
+        "vehiclename": "Kawasaki ninja zx10R",
+        "catagory": "Sport",
+        "noofseats": "2",
+        "noofpassengers": "2",
+        "price": "1200"
+    },
+    {
+        "image": "https://images.carandbike.com/bike-images/colors/bmw/r-1250-gs-adventure/bmw-r-1250-gs-adventure-light-white-racing-blue-metallic-racing-red.png?v=1625762779",
+        "vehiclename": "BMW R 1200 GS",
+        "catagory": "Aventure tourer",
+        "noofseats": "2",
+        "noofpassengers": "2",
+        "price": "1700"
+    },
+    {
+        "image": "https://img.gaadicdn.com/images/car-images/360x240/Maruti/Ignis/7590/1582097601736/SILKY-SILVER-8d9193.jpg",
+        "vehiclename": "Maruthi Ignis",
+        "catagory": "Mini",
+        "noofseats": "4",
+        "noofpassengers": "4",
+        "price": "2500"
+    },
+    {
+        "image": "https://images.hindustantimes.com/auto/img/2022/04/04/600x338/Volkswagen_Polo_Legend_edition_1649044005572_1649044014091.jpg",
+        "vehiclename": "Volkswagan Polo",
+        "catagory": "Hatch back",
+        "noofseats": "4",
+        "noofpassengers": "4",
+        "price": "3500"
+    },
+    {
+        "image": "https://imgd.aeplcdn.com/1280x720/n/cw/ec/49980/rapid-tsi-at-exterior-right-front-three-quarter-3.jpeg?q=75",
+        "vehiclename": "Skoda Rapid",
+        "catagory": "Seden",
+        "noofseats": "4",
+        "noofpassengers": "4",
+        "price": "5000"
+    },
+    {
+        "image": "https://cdni.autocarindia.com/Utils/ImageResizer.ashx?n=https://cdni.autocarindia.com/ExtraImages/20200806013931_Fortuner-TRD.jpg",
+        "vehiclename": "Toyoto Fortuner",
+        "catagory": "SUV",
+        "noofseats": "6",
+        "noofpassengers": "6",
+        "price": "7000"
+    },
+    {
+        "image": "https://www.rushlane.com/wp-content/uploads/2020/08/force-tempo-traveller-bs6-600x338.jpg",
+        "vehiclename": "Force Traveller",
+        "catagory": "Van",
+        "noofseats": "15",
+        "noofpassengers": "15",
+        "price": "12,000"
+    },
+    {
+        "image": "https://busimg.cardekho.com/p/630x420/in/ashok-leyland/janbus/ashok-leyland-janbus.jpg?impolicy=resize&imwidth=420",
+        "vehiclename": "Ashok leyland bus",
+        "catagory": "Bus",
+        "noofseats": "40",
+        "noofpassengers": "40",
+        "price": "20,000"
+    }
+]
