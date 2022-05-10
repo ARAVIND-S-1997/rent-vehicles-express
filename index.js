@@ -12,14 +12,13 @@ import { myroutes } from "./routes/allRoutes.js"
 
 // express and mongo connection
 await mongoconnection();
-const application = express();
+const app = express();
 const port = process.env.PORT;
-application.listen(port, () => { console.log(`App is running at port:${port}`) })
+app.listen(port, () => { console.log(`App is running at port:${port}`) })
 
 
 
 // middleware
-
-application.use(cors({origin: "http://localhost:3000"}));
-application.use(express.json());
-application.use("/rentvehicles", myroutes);
+app.use(express.json());
+app.use(cors());
+app.use("/rentvehicles", myroutes);
