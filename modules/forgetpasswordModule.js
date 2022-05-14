@@ -20,16 +20,18 @@ export const forgetPasswordFunction = async (request, response) => {
 
             const tempPassword = await token({ _id });
             console.log("Temporary password is:", tempPassword);
-            
+
             const updatePassword = await customers.updateOne({ emailid }, { $set: { password: tempPassword } });
-            if(updatePassword. modifiedCount===1){
-                response.send({ message: "Temporary password got updated"});
+            if (updatePassword.modifiedCount === 1) {
+                response.send({ message: "Temporary password got updated" });
             }
-            
+
             // Password reset link
             // local
-            const resetLink = `http://localhost:5000/rentvehicles/verify/${tempPassword}`
+            // const resetLink = `http://localhost:5000/rentvehicles/verify/${tempPassword}`
 
+            // heroku
+            const resetLink = `https://vehicle-rent-app.herokuapp.com/rentvehicles/verify/${tempPassword}`
             // email message
             const message = (
                 `<p>Hai there 😊 link to reset the password</p>

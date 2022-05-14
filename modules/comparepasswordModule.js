@@ -8,7 +8,8 @@ export const verifyFunction = async (request, response) => {
         const check=await customers.findOne({password:id});
         if(check){
             const {emailid}=check
-            response.redirect(`http://localhost:3000/changepassword/${emailid}`);
+            // response.redirect(`http://localhost:3000/changepassword/${emailid}`);
+            response.redirect(`https://tranquil-semolina-78992c.netlify.app/changepassword/${emailid}`);
             console.log("redirected")
         }else{
             response.status(404);
